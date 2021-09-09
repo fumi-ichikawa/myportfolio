@@ -249,6 +249,8 @@ img {
 
 .skill-name {
   margin-bottom: 10px;
+  display: flex;
+  align-items: center;
 }
 
 .skill-name img{
