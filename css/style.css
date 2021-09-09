@@ -309,6 +309,7 @@ img {
 
 .contact-form {
   padding-bottom: 40px;
+  width: 100%;
 }
 
 .contact-form input, .contact-form textarea {
@@ -324,7 +325,7 @@ img {
 }
 
 .contact-form .form-send button  {
-  /* background: #74cfae; */
+  background: #797979;
   border: 0;
   padding: 10px 30px;
   color: #fff;
@@ -333,7 +334,7 @@ img {
 }
 
 .contact-form .form-send button:hover {
-  /* background: #78e0bb; */
+  background: #555;
   opacity: 0.5;
 }
 
@@ -360,7 +361,7 @@ img {
   border-radius: 50%;
   width: 24px;
   height: 24px;
-  /* border: 3px solid #18d26e; */
+  border: 3px solid #797979;
   border-top-color: #eee;
   -webkit-animation: animate-loading 1s linear infinite;
   animation: animate-loading 1s linear infinite;
@@ -403,13 +404,17 @@ img {
 .contact-form .sent-message {
   display: none;
   color: #fff;
-  /* background: #18d26e; */
+  background: #797979;
   text-align: center;
   padding: 15px;
   font-weight: 600;
   margin: 15px 0;
 }
-
+.form-control{
+  width: 100%;
+  border: 2px solid #333;
+  margin-bottom: 20px;
+}
 /*--------------------------------
  ページトップ
 ---------------------------------*/
