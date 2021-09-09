@@ -410,7 +410,7 @@ img {
   font-weight: 600;
   margin: 15px 0;
 }
-.form-control{
+#contact-name{
   width: 100%;
   border: 2px solid #333;
   margin-bottom: 20px;
