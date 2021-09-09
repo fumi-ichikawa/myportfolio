@@ -225,6 +225,10 @@ img {
   margin-bottom: -50px;
 }
 
+/* .skill-list h3{
+
+} */
+
 .skill-item {
   display: flex;
   align-items: flex-start;
@@ -245,6 +249,10 @@ img {
 
 .skill-name {
   margin-bottom: 10px;
+}
+
+.skill-name img{
+  width: 100px;
 }
 
 .skill-text {
